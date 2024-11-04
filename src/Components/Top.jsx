@@ -11,6 +11,7 @@ const Top = () => {
             </div>
             <div className="absolute inset-0 flex">
                 <div className="w-full text-white">
+                    {/* ***Navigation Bar*** */}
                     <nav className="my-[32px] sticky flex w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
                         <div className="flex">
                             <div className="flex">
@@ -48,18 +49,18 @@ const Top = () => {
                                     </ul>
                                 </div>
                             </div>
-
-
                         </div>
                         <div className="ms-[417.01px] hidden md:block">
                             <button className="w-[157px] bg-[#FEBF00] text-[#0A1425] font-bold h-[44px]">BOOK A TABLE</button>
                         </div>
                     </nav>
+
+                    {/* ***Frame 2080*** */}
                     <div className="w-full md:mt-[130px] max-w-[1373.5px] mx-auto md:flex px-4 sm:px-6 lg:px-8 xxl:px-[300px] md:relative">
                         <div className="md:absolute md:inset-0 md:flex md:top-10">
                             <h1 className="md:absolute text-white md:top-[140px] uppercase text-7xl ms-11 md:bg-[#BD1F17] md:pe-5 md:py-5 md:bg-opacity-[33%]">taste the authentic <br /> saudi cuisine</h1>
-                            <p className="md:top-[290px] mt-5 md:absolute ms-11">Among the best Saudi chefs in the world, serving <br /> you something beyond flavor. </p>
-                            <button className="md:absolute mt-5 md:top-[370px] ms-11 uppercase text-[#0A1425] font-bold bg-[#FEBF00] w-[180px] h-[56px]">explore menu</button>
+                            <p className="md:top-[290px] mt-9 md:absolute ms-11">Among the best Saudi chefs in the world, serving <br /> you something beyond flavor. </p>
+                            <button className="md:absolute mt-8 md:top-[370px] ms-11 uppercase text-[#0A1425] font-bold bg-[#FEBF00] w-[180px] h-[56px]">explore menu</button>
                         </div>
                         <div className="md:ms-[584px] md:me-8">
                             <img className="md:w-[700px] mt-5 md:h-[649px]" src={cuisinePic} alt="" />
