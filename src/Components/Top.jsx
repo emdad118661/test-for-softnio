@@ -64,6 +64,14 @@ const Top = () => {
                         </div>
                         <div className="md:ms-[584px] md:me-8">
                             <img className="md:w-[700px] mt-5 md:h-[649px]" src={cuisinePic} alt="" />
+                            
+                                <div className="bg-[#FEBF00] absolute bottom-0 right-4 bottom rounded-full h-[120px] w-[120px]">
+                                    <div className="w-[100px] h-[100px] absolute top-[10px] justify-center left-[10px] rounded-full border-[#BD1F17] border-dashed border-2">
+                                        <h1 className="absolute inset-0 top-[18px] text-[#0A1425] text-center text-[20px] font-bold">TODAY <br /> OFFER</h1>
+                                    </div>
+                                </div>
+                            
+
                         </div>
                     </div>
 
