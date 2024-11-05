@@ -5,7 +5,7 @@ import cuisinePic from "../assets/images/others/image 1.png"
 
 const Top = () => {
     return (
-        <div className="w-full md:mt-[130px] max-w-[1373.5px] mx-auto md:flex px-4 sm:px-6 lg:px-8 xxl:px-[300px] md:relative">
+        <div className="w-full md:mt-[130px] md:max-w-[1373.5px] max-w-[330px] mx-auto md:flex px-4 sm:px-6 lg:px-8 xxl:px-[300px] md:relative">
             <div className="md:absolute md:inset-0 md:flex md:top-10">
                 <h1 className="md:absolute text-white md:top-[140px] uppercase md:text-7xl text-4xl ms-11 md:bg-[#BD1F17] md:pe-5 md:py-5 md:bg-opacity-[33%]">taste the authentic <br /> saudi cuisine</h1>
                 <p className="md:top-[290px] text-[24px] mt-9 md:absolute ms-11">Among the best Saudi chefs in the world, serving <br /> you something beyond flavor. </p>

@@ -3,7 +3,7 @@ import logo from "../assets/images/others/Frame.png";
 const Header = ({ isSticky }) => {
     return (
         <div className={`fixed top-0 text-white left-0 w-full z-50 transition-all duration-300 ${isSticky && 'text-gray-500 '}`}>
-            <nav className="mt-[32px] flex w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
+            <nav className="mt-[32px] flex w-full md:max-w-[1320px] max-w-[330px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
                 <div className="flex">
                     <div className="flex">
                         <img className="w-[36.99px] h-[37px] mt-1" src={logo} alt="" />
