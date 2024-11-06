@@ -19,7 +19,7 @@ const About = () => {
                             </ul>
                             {/* <hr className="bg-[#BD1F17]" /> */}
                             <h1 className="text-4xl font-bold uppercase">Exceptional culinary <br /> experience and delicious food</h1>
-                            <p className="text-[16px] h-[104px] mt-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
+                            <p className="text-[16px] w-[330px] md:w-[624px] h-[104px] mt-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                             <div className="flex h-12 md:h-[56px] md:mt-[32px] mt-[90px]">
                                 <button className="md:w-[161px] w-[149px] bg-[#FEBF00] text-[18px] font-bold">ABOUT MORE</button>
                                 <div className="flex md:ms-8 ms-4">
