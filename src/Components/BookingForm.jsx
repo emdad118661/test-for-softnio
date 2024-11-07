@@ -26,7 +26,7 @@ const BookingForm = () => {
     }
 
     return (
-        <div className="relative">
+        <div id="table-book" className="relative">
             <img className="w-full h-[722px] md:h-[788px] object-cover object-center"
                 src={table}
                 alt="Book a Table" />
