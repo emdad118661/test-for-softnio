@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Top from './Components/Top';
 import bg from "./assets/images/background/Rectangle 4.png";
 import Items from './Components/Items';
+import BookingForm from './Components/BookingForm';
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -40,6 +41,7 @@ function App() {
       {/* About Section */}
       <About />
       <Items></Items>
+      <BookingForm></BookingForm>
     </div>
   );
 }

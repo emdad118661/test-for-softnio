@@ -42,10 +42,10 @@ const Items = () => {
     const leftToRight = () => {
         setDirection("right");
     };
-    
+
     return (
         <div className="w-full md:h-[710px] h-[552px] bg-[#FBF7F2]">
-            <div className="md:max-w-[1373.5px] max-w-[330px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
+            <div className="md:max-w-[1320px] max-w-[330px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
                 <div className="md:pt-[120px] pt-[32px] md:flex">
                     <div className="md:w-[1168px]">
                         <li className="md:text-[20px] text-[16px] h-[32px] list-square text-[#BD1F17] font-bold">Crispy, Every Bite Taste</li>
@@ -66,21 +66,20 @@ const Items = () => {
                     </div>
                 </div>
                 <div>
+                    <Marquee direction={direction} pauseOnHover={true}>
+                        <div className="md:pt-[60px] pt-[30px] grid grid-cols-4 gap-8">
+                            {
+                                items.map(item => <div className="h-[300px] bg-white " key={item.id}>
+                                    <img className="h-[120px] w-[120px] mt-8 mb-6 mx-[85px]" src={item.image} alt="" />
+                                    <hr className="w-[57px] mx-[114.5px] mb-6 border-t-4 border-[#BD1F17]" />
+                                    <h1 className="mx-8 text-lg font-bold text-center uppercase h-9">{item.title}</h1>
+                                    <p className="text-center text-[16px]">{item.description}</p>
+                                </div>)
+                            }
+                        </div>
+                    </Marquee>
                 </div>
             </div>
-
-            <Marquee direction={direction} pauseOnHover={true}>
-                <div className="md:pt-[60px] pt-[30px] w-[1320px] grid grid-cols-4 gap-8">
-                    {
-                        items.map(item => <div className="h-[300px] bg-white " key={item.id}>
-                            <img className="h-[120px] w-[120px] mt-8 mb-6 mx-[85px]" src={item.image} alt="" />
-                            <hr className="w-[57px] mx-[114.5px] mb-6 border-t-4 border-[#BD1F17]" />
-                            <h1 className="mx-8 text-lg font-bold text-center uppercase h-9">{item.title}</h1>
-                            <p className="text-center text-[16px]">{item.description}</p>
-                        </div>)
-                    }
-                </div>
-            </Marquee>
         </div>
     );
 };
