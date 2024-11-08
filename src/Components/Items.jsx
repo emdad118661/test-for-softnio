@@ -50,7 +50,7 @@ const Items = () => {
                 <div className="md:pt-[120px] pt-[32px] md:flex">
                     <div className="md:w-[1168px]">
                         <li className="md:text-[20px] text-[16px] h-[32px] list-square text-[#BD1F17] font-bold">Crispy, Every Bite Taste</li>
-                        <h1 className="md:text-4xl text-2xl h-[62px] font-bold">POPULAR FOOD ITEMS</h1>
+                        <h1 className="md:text-4xl text-2xl h-[62px] text-black font-bold">POPULAR FOOD ITEMS</h1>
                     </div>
                     <div onClick={rightToLeft} className="absolute md:top-[2031px] top-[2695px] left-[120px] md:left-[1168px] rounded-full bg-white shadow-2xl w-[60px] h-[60px]">
                         <svg className="mt-5 ms-6" width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">

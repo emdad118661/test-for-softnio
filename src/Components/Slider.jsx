@@ -14,7 +14,7 @@ const Slider = () => {
                 <div className="md:pt-[120px] pt-[32px] md:flex">
                     <div className="md:w-[1168px]">
                         <li className="md:text-[20px] text-[16px] h-[32px] list-square text-[#BD1F17] font-bold">Crispy, Every Bite Taste</li>
-                        <h1 className="md:text-4xl text-2xl h-[62px] font-bold uppercase">What Some of my Customers Say</h1>
+                        <h1 className="md:text-4xl text-black text-2xl h-[62px] font-bold uppercase">What Some of my Customers Say</h1>
                     </div>
                 </div>
                 <div className="mt-[60px] flex flex-col md:flex-row">

@@ -4,7 +4,7 @@ import salad from "../assets/images/others/salad.png"
 const About = () => {
     return (
         <div>
-            <div className="w-full relative md:h-[744px] h-[1144.03px] md:max-w-[1373.5px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
+            <div className="w-full relative md:h-[744px] h-[1144.03px] md:max-w-[1373.5px] bg-[#FFFFFF] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
                 <div className="md:flex md:mt-[120px] mt-8 mb-8 md:mb-[74px]">
                     <div className="relative">
                         <img className="md:w-[617px] mb-8 md:mb-0 md:h-[480px] w-[330px] h-[246.03px]" src={burgar} alt="" />
