@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Marquee from "react-fast-marquee";
+import capsicum from "../assets/images/others/capsicum.png"
 
 const Items = () => {
     const food =
@@ -80,6 +81,7 @@ const Items = () => {
                     </Marquee>
                 </div>
             </div>
+            <img className="absolute top-[2000px] w-[180.61px] hidden sm:block" src={capsicum} alt="" />
         </div>
     );
 };

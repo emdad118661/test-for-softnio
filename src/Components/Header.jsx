@@ -12,7 +12,7 @@ const Header = ({ isSticky }) => {
                 'text-white': !isSticky,
             }
         )}>
-            <nav className="mt-[32px] flex w-full md:max-w-[1320px] max-w-[330px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
+            <nav className="mt-[32px] flex w-full md:max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
                 <div className="flex">
                     <div className="flex">
                         <img className="w-[36.99px] h-[37px] mt-1" src={logo} alt="Restaurant Logo" />

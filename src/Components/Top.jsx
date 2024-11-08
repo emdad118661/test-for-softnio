@@ -5,17 +5,17 @@ import cuisinePic from "../assets/images/others/image 1.png"
 
 const Top = () => {
     return (
-        <div className="w-full md:mt-[130px] md:max-w-[1373.5px] max-w-[330px] mx-auto md:flex px-4 sm:px-6 lg:px-8 xxl:px-[300px] md:relative">
+        <div className="w-full md:mt-[130px] mt-[32px] md:max-w-[1373.5px] md:h-[1047px] h-[792.1px] mx-auto md:flex px-4 sm:px-6 lg:px-8 xxl:px-[300px] md:relative">
             <div className="md:absolute md:inset-0 md:flex md:top-10">
-                <h1 className="md:absolute text-white md:top-[140px] uppercase md:text-7xl text-4xl ms-11 md:bg-[#BD1F17] md:pe-5 md:py-5 md:bg-opacity-[33%]">taste the authentic <br /> saudi cuisine</h1>
-                <p className="md:top-[290px] text-[24px] mt-9 md:absolute ms-11">Among the best Saudi chefs in the world, serving <br /> you something beyond flavor. </p>
-                <button className="md:absolute mt-16 text-[18px] md:top-[370px] ms-11 uppercase text-[#0A1425] font-bold bg-[#FEBF00] w-[180px] h-[56px]">explore menu</button>
+                <h1 className="md:absolute text-white md:top-[140px] uppercase md:text-7xl text-4xl md:ms-11 md:bg-[#BD1F17] md:pe-5 md:py-5 md:bg-opacity-[33%]">taste the authentic <br /> saudi cuisine</h1>
+                <p className="md:top-[290px] text-[24px] mt-9 md:absolute md:ms-11">Among the best Saudi chefs in the world, serving <br /> you something beyond flavor. </p>
+                <button className="md:absolute md:mt-16 mt-8 text-[18px] md:top-[370px] md:ms-11 uppercase text-[#0A1425] font-bold bg-[#FEBF00] w-[180px] h-[56px]">explore menu</button>
             </div>
             <div className="md:ms-[584px] md:me-8">
-                <img className="md:w-[700px] mt-5 md:h-[649px]" src={cuisinePic} alt="" />
-                <div className="bg-[#FEBF00] absolute bottom-0 right-4 bottom rounded-full h-[120px] w-[120px] shadow-2xl">
-                    <div className="w-[100px] h-[100px] absolute top-[10px] justify-center left-[10px] rounded-full border-[#BD1F17] border-dashed border-2">
-                        <h1 className="absolute inset-0 top-[18px] text-[#0A1425] text-center text-[20px] font-bold">TODAY <br /> OFFER</h1>
+                <img className="md:w-[700px] md:mt-5 mt-[48px] md:h-[649px]" src={cuisinePic} alt="" />
+                <div className="bg-[#FEBF00] absolute md:bottom-0 bottom-32 md:right-4 right-4 bottom rounded-full md:h-[120px] h-[72px] md:w-[120px] w-[72px] shadow-2xl">
+                    <div className="md:w-[100px] md:h-[100px] h-[52px] w-[52px] absolute top-[10px] justify-center left-[10px] rounded-full border-[#BD1F17] border-dashed border-2">
+                        <h1 className="absolute inset-0 md:top-[18px] top-[10px] text-[#0A1425] text-center text-[10px] md:text-[20px] font-bold">TODAY <br /> OFFER</h1>
                     </div>
                 </div>
                 <svg className="absolute md:mt-7 top-[-44px] md:left-[1290px] hidden sm:block" width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
