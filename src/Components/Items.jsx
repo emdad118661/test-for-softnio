@@ -45,7 +45,7 @@ const Items = () => {
     };
 
     return (
-        <div className="w-full md:h-[710px] h-[552px] bg-[#FBF7F2]">
+        <div className="w-full md:h-[710px] h-[552px] bg-[#FBF7F2] text-black">
             <div className="md:max-w-[1320px] max-w-[330px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
                 <div className="md:pt-[120px] pt-[32px] md:flex">
                     <div className="md:w-[1168px]">

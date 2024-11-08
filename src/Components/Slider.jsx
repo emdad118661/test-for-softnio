@@ -9,7 +9,7 @@ import pata from "../assets/images/others/pata.png";
 
 const Slider = () => {
     return (
-        <div className="w-full md:h-[965.97px] h-[861.95px] bg-[#FFFFFF] relative">
+        <div className="w-full md:h-[965.97px] h-[861.95px] bg-[#FFFFFF] relative text-black">
             <div className="md:max-w-[1320px] max-w-[330px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px]">
                 <div className="md:pt-[120px] pt-[32px] md:flex">
                     <div className="md:w-[1168px]">
