@@ -13,7 +13,7 @@ const Top = () => {
             </div>
             <div className="md:ms-[584px] md:me-8">
                 <img className="md:w-[700px] md:mt-5 mt-[48px] md:h-[649px]" src={cuisinePic} alt="" />
-                <div className="bg-[#FEBF00] absolute md:bottom-0 bottom-32 md:right-4 right-4 bottom rounded-full md:h-[120px] h-[72px] md:w-[120px] w-[72px] shadow-2xl">
+                <div className="bg-[#FEBF00] absolute md:bottom-[378px] bottom-32 md:right-4 right-4 bottom rounded-full md:h-[120px] h-[72px] md:w-[120px] w-[72px] shadow-2xl">
                     <div className="md:w-[100px] md:h-[100px] h-[52px] w-[52px] absolute top-[10px] justify-center left-[10px] rounded-full border-[#BD1F17] border-dashed border-2">
                         <h1 className="absolute inset-0 md:top-[18px] top-[10px] text-[#0A1425] text-center text-[10px] md:text-[20px] font-bold">TODAY <br /> OFFER</h1>
                     </div>
