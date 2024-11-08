@@ -6,6 +6,8 @@ import bg from "./assets/images/background/Rectangle 4.png";
 import Items from './Components/Items';
 import BookingForm from './Components/BookingForm';
 import { BrowserRouter } from 'react-router-dom';
+import Footer from './Components/Footer';
+import Slider from './Components/Slider';
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -26,7 +28,6 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
       <div>
         <Header isSticky={isSticky} />
 
@@ -46,8 +47,9 @@ function App() {
         <About />
         <Items></Items>
         <BookingForm></BookingForm>
+        <Slider></Slider>
+        <Footer></Footer>
       </div>
-    </BrowserRouter>
   );
 }
 
