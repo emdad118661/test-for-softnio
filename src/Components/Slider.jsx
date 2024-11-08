@@ -17,11 +17,9 @@ const Slider = () => {
                         <h1 className="md:text-4xl text-2xl h-[62px] font-bold uppercase">What Some of my Customers Say</h1>
                     </div>
                 </div>
-                <div className="mt-[60px] md:flex">
-                    <div className="md:w-[556.45px] w-[300px]">
-                        <img src={testimony} alt="" />
-                    </div>
-                    <div className="relative md:w-[763.6px] w-[300px] carousel">
+                <div className="mt-[60px] flex flex-col md:flex-row">
+                    {/* Carousel - Show first on small devices, right side on medium devices */}
+                    <div className="relative md:w-[763.6px] w-full order-1 md:order-2 carousel">
                         {/* Slide 1 */}
                         <div id="slide1" className="w-full carousel-item">
                             <img src={testimony1} alt="Slide 1" />
@@ -30,7 +28,7 @@ const Slider = () => {
                                 <a href="#slide2" className="btn-nav right">&#10095;</a>
                             </div>
                         </div>
-                        
+
                         {/* Slide 2 */}
                         <div id="slide2" className="w-full carousel-item">
                             <img src={testimony2} alt="Slide 2" />
@@ -39,7 +37,7 @@ const Slider = () => {
                                 <a href="#slide3" className="btn-nav right">&#10095;</a>
                             </div>
                         </div>
-                        
+
                         {/* Slide 3 */}
                         <div id="slide3" className="w-full carousel-item">
                             <img src={testimony3} alt="Slide 3" />
@@ -48,7 +46,7 @@ const Slider = () => {
                                 <a href="#slide4" className="btn-nav right">&#10095;</a>
                             </div>
                         </div>
-                        
+
                         {/* Slide 4 */}
                         <div id="slide4" className="w-full carousel-item">
                             <img src={testimony4} alt="Slide 4" />
@@ -58,7 +56,13 @@ const Slider = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Testimony Image - Show second on small devices, left side on medium devices */}
+                    <div className="md:w-[556.45px] w-full order-2 md:order-1">
+                        <img src={testimony} alt="Testimony Quote" />
+                    </div>
                 </div>
+
             </div>
             <img className="absolute top-[150px] w-[107px] hidden sm:block" src={tomato} alt="" />
             <img className="absolute w-[256.44px] top-[700px] right-0 hidden sm:block" src={pata} alt="" />
