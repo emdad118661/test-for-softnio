@@ -2,7 +2,7 @@ import footer from "../assets/images/background/Footer.png"
 const Footer = () => {
     return (
         <div className="md:h-[720.45px] h-[999px] relative">
-            <img className="md:h-[720.45px] h-[999px]" src={footer} alt="" />
+            <img className="md:h-[720.45px] h-[999px] object-cover object-center" src={footer} alt="" />
             <div className="absolute inset-0 bg-[#000000] md:h-[720.45px] h-[999px] bg-opacity-[80%] items-center justify-center text-center text-white">
                 <div className="md:max-w-[1320px] max-w-[330px] mx-auto px-4 sm:px-6 lg:px-8 xxl:px-[300px] md:my-[120px]">
                     <h1 className="md:text-4xl text-2xl h-[62px] font-bold uppercase">We ready to have you the best dining experiences</h1>
